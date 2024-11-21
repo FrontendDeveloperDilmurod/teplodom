@@ -1,0 +1,15 @@
+ul li {
+  margin-top: 15px;
+  cursor: pointer;
+}
+ul {
+  margin-bottom: 10px;
+}
+/* 
+.min-height {
+  min-height: 90vh;
+}
+
+.outlet {
+  flex: auto;
+} */

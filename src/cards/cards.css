@@ -1,0 +1,66 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* App.css */
+.my-toast {
+  color: white !important; /* Matn rangi */
+  background-color: #024604 !important; /* Toast foni (yashil) */
+  font-weight: bold !important;
+}
+
+.my-toast_1 {
+  color: white !important; /* Matn rangi */
+  background-color: rgb(251, 27, 27) !important; /* Toast foni (yashil) */
+  font-weight: bold !important;
+}
+
+.button-group .button-primary {
+  font-size: 17px;
+  background-color: #ffb12a;
+  color: white;
+  border: none;
+  width: 100px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-group .button-primary:hover {
+  background-color: white;
+  color: #ffb12a;
+  border: 1px solid #ffb12a;
+}
+
+.button-group .button-icon {
+  font-size: 17px;
+  background-color: #ffb12a;
+  color: white;
+  border: none;
+  width: 50px;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.button-group .button-icon:hover {
+  background-color: white;
+  color: #ffb12a;
+  border: 1px solid #ffb12a;
+}

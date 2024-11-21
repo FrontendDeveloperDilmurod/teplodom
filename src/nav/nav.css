@@ -1,0 +1,23 @@
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 350px) and (max-width: 600px) {
+  .sliders {
+    display: none;
+  }
+}

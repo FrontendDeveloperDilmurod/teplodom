@@ -1,0 +1,57 @@
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.15rem;
+}
+
+.action-button {
+  background-color: white;
+  color: #000000;
+  border: 2px solid black;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+.action-button:hover {
+  background-color: #ffb12a;
+  color: white;
+  border: none;
+}
+
+.quantity-container {
+  display: flex;
+  border: 2px solid #cbd5e1;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: auto;
+  align-items: center;
+}
+
+.quantity-button {
+  padding: 0.75rem;
+  width: 3.5rem;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.quantity-button:first-child {
+  border-right: 1px solid #cbd5e1;
+}
+
+.quantity-button:last-child {
+  border-left: 1px solid #cbd5e1;
+}
+
+.quantity-display {
+  padding: 0.35rem;
+  width: 3.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
